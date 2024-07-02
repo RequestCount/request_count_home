@@ -1,0 +1,66 @@
+.bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .bona-nova-sc-bold {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: normal;
+  }
+
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .text-animation {
+    animation: text-animation 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes text-animation {
+    0% {
+      color: #964b00; /* Initial color */
+    }
+    50% {
+      color: #500371; /* Animation color */
+    }
+    100% {
+      color: #009aa6; /* Back to initial color */
+    }
+  }
+  
+  .tile {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.5s, box-shadow 0.5s, background-color 0.5s, color 0.5s;
+    width: 20rem;
+    margin: auto;
+  }
+  
+  .tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 12px 40px 0 rgba(0, 0, 0, 0.22);
+    background-color: #ff7d29;
+    color: white;
+  }
