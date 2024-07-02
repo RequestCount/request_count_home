@@ -16,8 +16,9 @@ const Hero = () => {
     initial={{ opacity: 0, y: 50 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.7 }}
+    style={{textAlign:"center"}}
   >
-    <h1 className="text-6xl  font-bold mb-4 ml-24 montserrat ">
+    <h1 className="text-6xl  font-bold mb-4 montserrat ">
     {/* <span className='text-animation'>Welcome to</span> 
 
     <br/> <span>Request </span>
@@ -31,27 +32,20 @@ const Hero = () => {
 
     </span>
 
-  {/* <br />
-  <AnimatedText text="Request" animationConfig={{ delay: 100 }} />
-  <br /> */}
-  {/* <AnimatedText text="Count" animationConfig={{ delay: 100 }} /> */}
-
     </h1>
-    <div className='w-1/2 text-center ml-64 h-34'>
-    <p className="text-2xl mb-8 open-sans block">
+    <div className='text-center '>
+    <p className="text-2xl mb-8 open-sans block" style={{fontWeight:"700", color:'#fff0b1'}}>
       Empower Your Request Network Decision: get In-Depth insights with Request count
-      {/* <AnimatedText   text="Empower Your Request Network Decisions: Get In-Depth Insights with Request Count" animationConfig={{ delay: 70 }} /> */}
-
     </p>
-    </div>
    
     <motion.button
-      className="bg-green-500 px-6 py-3 rounded-full text-lg w-[20%] ml-96"
-      whileHover={{ scale: 1.05 }}
+      className="bg-green-500 px-6 py-3 rounded-full text-lg w-[25%] "
+      whileHover={{ scale: 1.05, fontWeight:"700" }}
       whileTap={{ scale: 0.95 }}
-    >
-      Launch App →
+      >
+      Launch App 🚀→
     </motion.button>
+      </div>
   </motion.div>
   <motion.div
     className="w-1/2"

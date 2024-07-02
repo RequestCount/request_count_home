@@ -1,38 +1,4 @@
-.bona-nova-sc-regular {
-    font-family: "Bona Nova SC", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .bona-nova-sc-bold {
-    font-family: "Bona Nova SC", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .bona-nova-sc-regular-italic {
-    font-family: "Bona Nova SC", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-
-  .montserrat {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:900;
-    font-style: normal;
-  }
-
-  .open-sans {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-
-  .text-animation {
+.text-animation {
     animation: text-animation 3s ease-in-out infinite alternate;
   }
   

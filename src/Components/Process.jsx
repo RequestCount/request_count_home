@@ -1,4 +1,3 @@
-// StepComponent.jsx
 import React from 'react';
 import { FaWallet, FaListAlt, FaFileInvoiceDollar, FaChartLine, FaCalculator } from 'react-icons/fa';
 import { motion } from 'framer-motion';
@@ -34,8 +33,8 @@ const steps = [
 const StepComponent = () => {
   return (
     <div className="container mx-auto py-12">
-        <h2 className="text-4xl montserrat text-center font-bold mb-8 text-black text-white">How does it works</h2>
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+      <h2 className="text-4xl montserrat text-center font-bold mb-8 text-white">How does it work?</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-8">
         {steps.map((step, index) => (
           <motion.div 
             key={index} 
@@ -51,6 +50,7 @@ const StepComponent = () => {
           </motion.div>
         ))}
       </div>
+      
     </div>
   );
 };

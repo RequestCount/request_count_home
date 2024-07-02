@@ -6,7 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-     
+      colors: {
+        'custom-purple': '#413171',
+        'custom-pink': '#f25ffb',
+      },
     },
   },
   variants: {

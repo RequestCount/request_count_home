@@ -22,11 +22,11 @@ const IPORLandingPage = () => {
      <Hero/>
      
       </div>
-      <div className='bg-gradient-to-b from-blue-600 to-black'>
+      <div className='bg-gradient-to-b from-custom-purple to-black'>
       <Benefits/>
       <Process/>
+      <div className="text-center pb-7"style={{color:"white", fontWeight:"700"}}>Copyright ©️ 2024, Created by <span style={{color:"#ff8a3e"}}>Request Count</span></div>
       </div>
-     
     </div>
    
    
