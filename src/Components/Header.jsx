@@ -14,7 +14,7 @@ const Header = () => {
         transition={{ duration: 0.5 }}
         className="flex items-center space-x-4"
       >
-        <img src={`${process.env.REACT_APP_BASE_URL}/c2.jpg`} alt="IPOR Logo" className="h-16 md:h-16 lg:h-32" />
+        <img src="https://request-count-homepage.vercel.app/C2.png"alt="IPOR Logo" className="h-16 md:h-16 lg:h-32" />
         {/* <h1 className="text-sm md:text-lg lg:text-2xl font-bold text-white">Request Count</h1> */}
       </motion.div>
 
