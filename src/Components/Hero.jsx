@@ -10,7 +10,7 @@ import Benefits from './Benefits';
 const Hero = () => {
 
   const handleLaunchApp = () => {
-    window.open('https://request-count-ajays-projects-0ad30712.vercel.app/', '_blank');
+    window.open('https://app-request-count.vercel.app/', '_blank');
   };
 
   return (
