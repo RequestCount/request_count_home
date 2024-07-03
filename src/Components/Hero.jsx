@@ -9,6 +9,10 @@ import Benefits from './Benefits';
 
 const Hero = () => {
 
+  const handleLaunchApp = () => {
+    window.open('https://request-count-ajays-projects-0ad30712.vercel.app/', '_blank');
+  };
+
   return (
     <div className=''>
     <motion.div
@@ -42,6 +46,7 @@ const Hero = () => {
       className="bg-green-500 px-6 py-3 rounded-full text-lg w-[25%] "
       whileHover={{ scale: 1.05, fontWeight:"700" }}
       whileTap={{ scale: 0.95 }}
+      onClick={handleLaunchApp} 
       >
       Launch App 🚀→
     </motion.button>
